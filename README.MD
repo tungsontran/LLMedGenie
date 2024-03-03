@@ -1,0 +1,1 @@
+A synthetic medical transcript generator using LLM. Explores various possible stacks of finetune and inference techniques. 
