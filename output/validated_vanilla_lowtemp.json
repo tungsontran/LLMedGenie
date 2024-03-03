@@ -1,0 +1,409 @@
+[
+  {
+    "medical_specialty": "Cardiovascular / Pulmonary",
+    "description": "Patient presents with shortness of breath and chest pain. Echocardiogram reveals left ventricular dysfunction and pulmonary hypertension. Diagnosis: Heart failure with pulmonary hypertension.",
+    "transcription": "Patient presents with shortness of breath and chest pain. The patient is a 65-year-old male with a past medical history significant for hypertension, hyperlipidemia, and coronary artery disease status post stenting in 2014. Vital signs are within normal limits. Physical examination is unremarkable. Labs are within normal limits. Echocardiogram reveals left ventricular ejection fraction of 30%, left ventricular end diastolic diameter of 6.5 cm, and left atrial diameter of 5.5 cm. Pulmonary artery pressure is elevated at 60 mmHg. Diagnosis: Heart failure with pulmonary hypertension.",
+    "sample_name": "Heart Failure with Pulmonary Hypertension",
+    "keywords": [
+      "heart failure",
+      "pulmonary hypertension",
+      "left ventricular dysfunction",
+      "echocardiogram",
+      "coronary artery disease"
+    ]
+  },
+  {
+    "medical_specialty": "Cardiovascular / Pulmonary",
+    "description": "Patient presents with shortness of breath and chest pain. Diagnosis of chronic obstructive pulmonary disease (COPD) and coronary artery disease (CAD) is made. Treatment includes bronchodilators and statins.",
+    "transcription": "Patient presents to the emergency department with complaints of shortness of breath and chest pain. The patient is a 65-year-old male with a past medical history significant for hypertension, hyperlipidemia, and chronic obstructive pulmonary disease (COPD) diagnosed 5 years ago. The patient reports that his symptoms began 2 days ago with a dry cough and shortness of breath. The patient reports that his symptoms have worsened over the past 24 hours, and he now reports some associated chest pain. The patient denies any other symptoms. Vital signs are significant for a respiratory rate of 24 breaths per minute, a blood pressure of 150/90 mm Hg, and an oxygen saturation of 92% on room air. Physical examination is significant for tachypnea and use of accessory muscles. The patient is in no acute distress. Cardiac examination is significant for a regular rate and rhythm. Lung examination reveals decreased breath sounds and wheezing in the bilateral lower lobes. The patient is diagnosed with an acute exacerbation of COPD with superimposed pneumonia and coronary artery disease (CAD). The patient is admitted to the hospital for further management. The patient is started on bronchodilators and antibiotics for the treatment of his pneumonia. The patient is also started on a statin for the treatment of his CAD.",
+    "sample_name": "Acute Exacerbation of COPD with Superimposed Pneumonia and Coronary Artery Disease",
+    "keywords": [
+      "COPD",
+      "pneumonia",
+      "coronary artery disease",
+      "shortness of breath",
+      "chest pain",
+      "respiratory rate",
+      "blood pressure",
+      "oxygen saturation",
+      "accessory muscles",
+      "regular rate and rhythm",
+      "decreased breath sounds",
+      "wheezing",
+      "bronchodilators",
+      "statins"
+    ]
+  },
+  {
+    "medical_specialty": "Cardiovascular / Pulmonary",
+    "description": "Patient presents with shortness of breath and chest pain. Echocardiogram reveals left ventricular dysfunction and pulmonary hypertension. Pulmonary function tests show restrictive lung disease. Diagnosis: Heart failure with pulmonary hypertension and restrictive lung disease.",
+    "transcription": "Patient presents to the emergency department complaining of shortness of breath and chest pain. The patient is a 65-year-old male with a past medical history significant for hypertension, hyperlipidemia, and coronary artery disease status post stenting in 2013. Vital signs are within normal limits. Physical examination is unremarkable. Initial labs are within normal limits. EKG shows sinus rhythm with a rate of 85 beats per minute and no acute changes. CBC, BMP, and troponins are negative. The patient undergoes an echocardiogram which reveals a left ventricular ejection fraction of 25%, severe mitral regurgitation, and a right ventricular systolic pressure of 55 mmHg. Pulmonary artery systolic pressure is 65 mmHg. Pulmonary function tests reveal a forced vital capacity of 1.8 liters, a forced expiratory volume in 1 second of 1.2 liters, and a total lung capacity of 4.1 liters. The patient is diagnosed with heart failure with pulmonary hypertension and restrictive lung disease.",
+    "sample_name": "Cardiovascular / Pulmonary Case Study",
+    "keywords": [
+      "heart failure",
+      "pulmonary hypertension",
+      "restrictive lung disease",
+      "echocardiogram",
+      "pulmonary function tests"
+    ]
+  },
+  {
+    "medical_specialty": "Cardiovascular / Pulmonary",
+    "description": "Patient with a history of hypertension and chronic obstructive pulmonary disease (COPD) presents with dyspnea and chest pain. Echocardiogram reveals left ventricular dysfunction and pulmonary artery hypertension. Pulmonary function tests confirm severe COPD. Patient is started on oxygen therapy and diuretics.",
+    "transcription": "Patient is a 72-year-old male with a past medical history significant for hypertension and chronic obstructive pulmonary disease (COPD) presenting with complaints of dyspnea and chest pain. On examination, the patient is in mild distress, with a respiratory rate of 22 breaths per minute and oxygen saturation of 88% on room air. The patient is afebrile with a blood pressure of 140/80 mmHg. The patient's lungs are clear to auscultation and percussion, with diminished breath sounds and scattered wheezes heard on the left. The patient's heart is regular in rhythm and without murmurs, rubs, or gallops. The patient's extremities are without edema. The patient's abdomen is benign. The patient's neurologic examination is unremarkable. The patient's electrocardiogram reveals sinus rhythm with a rate of 80 beats per minute and a left ventricular ejection fraction of 35%. The patient's chest X-ray reveals cardiomegaly and mild left lower lobe infiltrate. The patient's laboratory studies are unremarkable. The patient undergoes echocardiography, which reveals left ventricular dysfunction with an ejection fraction of 30%, as well as pulmonary artery hypertension. The patient's pulmonary function tests reveal severe COPD with a forced expiratory volume in one second (FEV1) of 40% and a forced vital capacity (FVC) of 50%. The patient is started on oxygen therapy via nasal cannula at 2 liters per minute and diuretics for management of his pulmonary artery hypertension and left ventricular dysfunction.",
+    "sample_name": "Cardiovascular / Pulmonary Case Study",
+    "keywords": [
+      "hypertension",
+      "COPD",
+      "dyspnea",
+      "chest pain",
+      "echocardiogram",
+      "left ventricular dysfunction",
+      "pulmonary artery hypertension",
+      "severe COPD",
+      "oxygen therapy",
+      "diuretics"
+    ]
+  },
+  {
+    "medical_specialty": "Cardiovascular / Pulmonary",
+    "description": "Patient with a history of hypertension and chronic obstructive pulmonary disease (COPD) presents with dyspnea and chest pain. Echocardiogram reveals left ventricular hypertrophy and aortic regurgitation. Pulmonary function tests show restrictive lung disease. Diagnosis: Heart failure with preserved ejection fraction and COPD.",
+    "transcription": "Patient is a 72-year-old male with a past medical history significant for hypertension and chronic obstructive pulmonary disease (COPD) presenting with complaints of dyspnea and chest pain. On physical examination, the patient is in no acute distress. Vital signs are within normal limits. Cardiac exam is significant for a III/VI systolic murmur heard best at the left sternal border. Lungs are clear to auscultation and percussion. Abdomen is benign. Extremities show no edema. Echocardiogram reveals left ventricular hypertrophy with an ejection fraction of 60%, as well as aortic regurgitation. Pulmonary function tests show a restrictive lung disease pattern. Diagnosis: Heart failure with preserved ejection fraction and COPD.",
+    "sample_name": "Cardiovascular / Pulmonary Consultation",
+    "keywords": [
+      "hypertension",
+      "COPD",
+      "dyspnea",
+      "chest pain",
+      "left ventricular hypertrophy",
+      "aortic regurgitation",
+      "restrictive lung disease",
+      "heart failure",
+      "preserved ejection fraction"
+    ]
+  },
+  {
+    "medical_specialty": "Cardiovascular / Pulmonary",
+    "description": "Patient with a history of coronary artery disease and chronic obstructive pulmonary disease presents with dyspnea on exertion. Echocardiogram reveals left ventricular systolic dysfunction and pulmonary artery hypertension. Pulmonary function tests confirm severe COPD.",
+    "transcription": "Patient is a 72-year-old male with a past medical history significant for coronary artery disease status post coronary artery bypass grafting in 2005, hypertension, hyperlipidemia, and chronic obstructive pulmonary disease (COPD) diagnosed in 2007. He presents to the emergency department today with a chief complaint of dyspnea on exertion. The patient reports that his symptoms began approximately 2 weeks ago and have progressively worsened. He denies any associated pleuritic chest pain, orthopnea, paroxysmal nocturnal dyspnea, or hemoptysis. His home medications include aspirin, lisinopril, atorvastatin, albuterol, ipratropium, and theophylline. His symptoms are not alleviated by his inhalers. The patient reports that he has been using his inhalers more frequently in the past 2 weeks. The patient's vital signs are as follows: blood pressure 140/80, pulse 90, respirations 22, and temperature 98.2 degrees Fahrenheit. On physical examination, the patient appears comfortable. His cardiac exam reveals a regular rate and rhythm without murmurs, rubs, or gallops. His lungs are clear to auscultation and percussion. His abdomen is benign. His extremities reveal 2+ pitting edema to the mid-calf. His neurologic exam is unremarkable. His laboratory studies reveal a sodium of 142, potassium of 4.2, chloride of 102, carbon dioxide of 32, bicarbonate of 24, blood urea nitrogen of 22, creatinine of 1.1, glucose of 110, and hemoglobin of 13.8. His chest x-ray reveals mild hyperinflation. A 12-lead ECG reveals a sinus rhythm with a rate of 90, first degree AV block, and nonspecific ST-T wave changes. A transthoracic echocardiogram reveals a left ventricular ejection fraction of 25-30% with a normal left ventricular end diastolic dimension and septal thickness. The right ventricle is mildly enlarged with a systolic pressure of 45 mm Hg. The right atrium and atrium are normal in size. The pulmonary artery systolic pressure is elevated at 55 mm Hg. The pulmonary artery acceleration time is 100 milliseconds. The patient's pulmonary function tests reveal a forced expiratory volume in 1 second of 50% of predicted, a forced vital capacity of 60% of predicted, and a diffusing capacity of the lung for carbon monoxide of 36% of predicted. The patient's BNP level is 120 pg/mL. The patient was admitted to the hospital for further evaluation and management.",
+    "sample_name": "Cardiovascular / Pulmonary",
+    "keywords": [
+      "coronary artery disease",
+      "left ventricular systolic dysfunction",
+      "pulmonary artery hypertension",
+      "chronic obstructive pulmonary disease",
+      "dyspnea on exertion",
+      "echocardiogram",
+      "pulmonary function tests"
+    ]
+  },
+  {
+    "medical_specialty": "Cardiovascular / Pulmonary",
+    "description": "Patient presented with symptoms of shortness of breath and chest pain. Diagnosis of chronic obstructive pulmonary disease (COPD) and coronary artery disease (CAD) was made. Treatment with bronchodilators and statins was initiated.",
+    "transcription": "Patient presents with complaints of shortness of breath and chest pain. The patient is a 65 year old male with a past medical history significant for hypertension, hyperlipidemia, and chronic obstructive pulmonary disease (COPD) diagnosed 5 years ago. The patient reports that his symptoms have been worsening over the past 2 weeks. On exam, the patient is in no acute distress. Vital signs are: blood pressure 140/85, pulse 85, respirations 22, and temperature 98.2 degrees Fahrenheit. The patient is afebrile and has clear lungs and an S1S2 heart sound. ECG shows old myocardial infarction in the anteroseptal leads. CBC, BUN, and creatinine are all within normal limits. CXR shows hyperinflation of the lungs. The patient is diagnosed with chronic obstructive pulmonary disease (COPD) and coronary artery disease (CAD). The patient is started on bronchodilators and statins.",
+    "sample_name": "Cardiovascular / Pulmonary Consultation",
+    "keywords": [
+      "COPD",
+      "CAD",
+      "shortness of breath",
+      "chest pain",
+      "hypertension",
+      "hyperlipidemia",
+      "ECG",
+      "CXR"
+    ]
+  },
+  {
+    "medical_specialty": "Cardiovascular / Pulmonary",
+    "description": "Patient presents with shortness of breath and chest pain. Diagnosis of chronic obstructive pulmonary disease (COPD) and coronary artery disease (CAD) is made. Treatment includes bronchodilators and statins.",
+    "transcription": "Patient presents to the emergency department complaining of shortness of breath and chest pain. The patient is a 65-year-old male with a past medical history significant for hypertension, hyperlipidemia, and chronic obstructive pulmonary disease (COPD) diagnosed 5 years ago. The patient reports that his symptoms began 2 days ago and have been progressive. The patient denies any other symptoms. Vital signs are significant for a blood pressure of 150/90 mm Hg, a heart rate of 90 beats per minute, and a respiratory rate of 22 breaths per minute. The patient is in no acute distress. Physical examination is significant for bibasilar crackles and an S3 gallop. The patient is diagnosed with an acute exacerbation of COPD and coronary artery disease (CAD). The patient is started on bronchodilators and is discharged home with a follow-up appointment with his primary care physician.",
+    "sample_name": "Acute Exacerbation of COPD and CAD",
+    "keywords": [
+      "COPD",
+      "CAD",
+      "shortness of breath",
+      "chest pain",
+      "bibasilar crackles",
+      "S3 gallop"
+    ]
+  },
+  {
+    "medical_specialty": "Cardiovascular / Pulmonary",
+    "description": "Patient presents with shortness of breath and chest pain. Diagnosis of chronic obstructive pulmonary disease (COPD) and coronary artery disease (CAD) is made. Treatment includes bronchodilators and statins.",
+    "transcription": "Patient presents to the clinic today with complaints of shortness of breath and chest pain. The patient reports that these symptoms have been present for several weeks and have been gradually worsening. The patient denies any other symptoms. The patient's medical history is significant for a 30 pack year smoking history. The patient quit smoking 5 years ago. The patient's family history is significant for coronary artery disease (CAD) in his father. The patient's social history is significant for alcohol use, approximately 1-2 drinks per day. The patient's review of systems is otherwise negative. On physical examination, the patient appears comfortable. Vital signs are significant for a respiratory rate of 24 and an oxygen saturation of 92% on room air. The patient's cardiovascular exam is significant for a regular rate and rhythm. The patient's lungs are clear to auscultation and percussion. The patient's abdomen is benign. The patient's extremities are without edema. The patient's neurologic exam is benign. Based on the patient's history and physical exam, a diagnosis of chronic obstructive pulmonary disease (COPD) and coronary artery disease (CAD) is made. The patient is started on bronchodilators and statins for treatment.",
+    "sample_name": "Cardiovascular / Pulmonary Consultation",
+    "keywords": [
+      "shortness of breath",
+      "chest pain",
+      "COPD",
+      "CAD",
+      "smoking history",
+      "family history",
+      "alcohol use",
+      "respiratory rate",
+      "oxygen saturation",
+      "cardiovascular exam",
+      "lung exam",
+      "abdomen exam",
+      "extremities exam",
+      "neurologic exam"
+    ]
+  },
+  {
+    "medical_specialty": "Cardiovascular / Pulmonary",
+    "description": "Patient with a history of hypertension and chronic obstructive pulmonary disease (COPD) presents with dyspnea and chest pain. Echocardiogram reveals a left ventricular ejection fraction of 35% and a pulmonary artery systolic pressure of 55 mmHg. Pulmonary function tests show a forced expiratory volume in 1 second (FEV1) of 50% and a forced vital capacity (FVC) of 60%. Diagnosis: Heart failure with preserved ejection fraction and pulmonary artery hypertension in the setting of COPD.",
+    "transcription": "Patient is a 72-year-old male with a past medical history significant for hypertension and chronic obstructive pulmonary disease (COPD) presenting with complaints of dyspnea and chest pain. Vital signs are within normal limits. Physical examination is unremarkable. Laboratory studies are within normal limits. Echocardiogram reveals a left ventricular ejection fraction (LVEF) of 35% and a pulmonary artery systolic pressure (PASP) of 55 mmHg. Pulmonary function tests show a forced expiratory volume in 1 second (FEV1) of 50% and a forced vital capacity (FVC) of 60%. Diagnosis: Heart failure with preserved ejection fraction and pulmonary artery hypertension in the setting of COPD.",
+    "sample_name": "Cardiovascular / Pulmonary Transcription",
+    "keywords": [
+      "hypertension",
+      "COPD",
+      "dyspnea",
+      "chest pain",
+      "left ventricular ejection fraction",
+      "pulmonary artery systolic pressure",
+      "heart failure",
+      "pulmonary artery hypertension"
+    ]
+  },
+  {
+    "medical_specialty": "Cardiovascular / Pulmonary",
+    "description": "Patient with a history of hypertension and chronic obstructive pulmonary disease (COPD) presents with dyspnea on exertion and orthopnea. Chest X-ray shows cardiomegaly and pulmonary edema. Echocardiogram reveals left ventricular hypertrophy and aortic regurgitation. Patient is diagnosed with heart failure and initiated on diuretics and ACE inhibitors.",
+    "transcription": "Patient is a 72-year-old male with a past medical history significant for hypertension and chronic obstructive pulmonary disease (COPD) presenting with complaints of dyspnea on exertion and orthopnea. On physical examination, the patient is in no acute distress. His blood pressure is 140/80 mmHg, pulse is 90 beats per minute, and oxygen saturation is 92% on room air. Chest X-ray reveals cardiomegaly and pulmonary edema. Echocardiogram reveals left ventricular hypertrophy with an ejection fraction of 50%, as well as severe aortic regurgitation. The patient is diagnosed with heart failure and is initiated on furosemide 40 mg daily and lisinopril 10 mg daily.",
+    "sample_name": "Heart Failure in a Patient with COPD",
+    "keywords": [
+      "heart failure",
+      "COPD",
+      "hypertension",
+      "echocardiogram",
+      "left ventricular hypertrophy",
+      "aortic regurgitation",
+      "diuretics",
+      "ACE inhibitors"
+    ]
+  },
+  {
+    "medical_specialty": "Cardiovascular / Pulmonary",
+    "description": "Patient presents with symptoms of shortness of breath and chest pain. Diagnosis of chronic obstructive pulmonary disease (COPD) and coronary artery disease (CAD) is made. Treatment includes bronchodilators, oxygen therapy, and statins.",
+    "transcription": "Patient presents to the clinic today with complaints of shortness of breath and chest pain. The patient reports that these symptoms have been present for several weeks and have been worsening in severity. The patient denies any other symptoms. The patient's medical history is significant for a 30 pack year smoking history, hypertension, and hyperlipidemia. The patient is currently taking lisinopril, atorvastatin, and lisinopril. The patient's physical examination is unremarkable. The patient's vital signs are as follows: blood pressure 140/80 mm Hg, pulse 80 beats per minute, respirations 20 breaths per minute, and oxygen saturation 92% on room air. The patient's chest x-ray reveals hyperinflation and emphysematous changes. Pulmonary function testing reveals a forced expiratory volume in one second (FEV1) of 50% and a forced vital capacity (FVC) of 60%. Echocardiography reveals left ventricular hypertrophy and a left ventricular ejection fraction (LVEF) of 50%. Based on the patient's symptoms, medical history, physical examination, and diagnostic testing, a diagnosis of chronic obstructive pulmonary disease (COPD) and coronary artery disease (CAD) is made. The patient is started on bronchodilators and oxygen therapy. The patient is also started on a statin for the management of his CAD.",
+    "sample_name": "Cardiovascular / Pulmonary Case Study",
+    "keywords": [
+      "COPD",
+      "CAD",
+      "shortness of breath",
+      "chest pain",
+      "smoking history",
+      "hypertension",
+      "hyperlipidemia",
+      "bronchodilators",
+      "oxygen therapy",
+      "statins",
+      "echocardiography",
+      "left ventricular hypertrophy",
+      "left ventricular ejection fraction"
+    ]
+  },
+  {
+    "medical_specialty": "Cardiovascular / Pulmonary",
+    "description": "Patient presents with shortness of breath and chest pain. Echocardiogram reveals left ventricular dysfunction and pulmonary hypertension. Pulmonary function tests show restrictive lung disease. Diagnosis: Pulmonary heart disease.",
+    "transcription": "Patient presents to the emergency department complaining of shortness of breath and chest pain. The patient is a 65-year-old male with a past medical history significant for hypertension, hyperlipidemia, and coronary artery disease status post stenting in 2015. Vital signs are within normal limits. Physical examination is unremarkable. Laboratory studies are within normal limits. ECG shows sinus rhythm with a rate of 85 beats per minute. The patient undergoes an echocardiogram which reveals a left ventricular ejection fraction of 30%, with global hypokinesis. The left atrium is enlarged. The right ventricle is enlarged with a trace of pulmonary regurgitation. The right atrium is enlarged. The pulmonary artery systolic pressure is estimated to be 55 mm Hg. The patient undergoes pulmonary function tests which reveal a restrictive lung disease. The patient is diagnosed with pulmonary heart disease.",
+    "sample_name": "Pulmonary Heart Disease",
+    "keywords": [
+      "left ventricular dysfunction",
+      "pulmonary hypertension",
+      "restrictive lung disease",
+      "pulmonary heart disease"
+    ]
+  },
+  {
+    "medical_specialty": "Cardiovascular / Pulmonary",
+    "description": "Patient with a history of hypertension and chronic obstructive pulmonary disease (COPD) presents with shortness of breath and chest pain. Echocardiogram reveals left ventricular systolic dysfunction and pulmonary artery hypertension. Diagnosis: Heart failure with preserved ejection fraction and pulmonary artery hypertension.",
+    "transcription": "Patient is a 72-year-old male with a past medical history significant for hypertension and chronic obstructive pulmonary disease (COPD) presenting with complaints of shortness of breath and chest pain. On exam, the patient is in no acute distress. Vital signs are within normal limits. Cardiac exam reveals a regular rate and rhythm without murmurs, rubs, or gallops. Lungs are clear to auscultation and percussion. Abdomen is benign. Extremities show no edema. Echocardiogram reveals a left ventricular ejection fraction of 50-55% with a septal hypertrophy of 1.3 cm. Pulmonary artery systolic pressure is elevated at 55 mmHg. Diagnosis: Heart failure with preserved ejection fraction and pulmonary artery hypertension.",
+    "sample_name": "Cardiovascular / Pulmonary Consultation",
+    "keywords": [
+      "hypertension",
+      "COPD",
+      "shortness of breath",
+      "chest pain",
+      "left ventricular systolic dysfunction",
+      "pulmonary artery hypertension",
+      "heart failure",
+      "preserved ejection fraction"
+    ]
+  },
+  {
+    "medical_specialty": "Cardiovascular / Pulmonary",
+    "description": "Patient with a history of hypertension, hyperlipidemia, and chronic obstructive pulmonary disease (COPD) presents with dyspnea and chest pain. Echocardiogram reveals left ventricular hypertrophy and pulmonary artery hypertension. Pulmonary function tests show restrictive lung disease. Patient is started on diuretics, oxygen therapy, and pulmonary rehabilitation.",
+    "transcription": "Patient is a 72-year-old male with a past medical history significant for hypertension, hyperlipidemia, and chronic obstructive pulmonary disease (COPD) presenting with complaints of dyspnea and chest pain. On physical examination, the patient is in no acute distress. Vital signs are within normal limits. Cardiopulmonary examination reveals normal heart sounds, no murmurs, and bilateral rales at the lung bases. The patient's chest X-ray is unremarkable. Electrocardiogram (ECG) shows sinus rhythm and left ventricular hypertrophy (LVH). Echocardiogram reveals a left ventricular ejection fraction (LVEF) of 55%, left ventricular hypertrophy (LVH) with a wall thickness of 1.4 cm, and a left atrium (LA) size of 4.1 cm. Pulmonary artery systolic pressure (PASP) is estimated to be 55 mmHg. Pulmonary function tests (PFTs) reveal a forced expiratory volume in 1 second (FEV1) of 1.2 liters (44% predicted), a forced vital capacity (FVC) of 2.1 liters (57% predicted), and a total lung capacity (TLC) of 4.1 liters (84% predicted). The patient is diagnosed with left ventricular hypertrophy (LVH) and pulmonary artery hypertension (PAH). The patient is started on diuretics, oxygen therapy, and pulmonary rehabilitation.",
+    "sample_name": "Left Ventricular Hypertrophy and Pulmonary Artery Hypertension",
+    "keywords": [
+      "left ventricular hypertrophy",
+      "pulmonary artery hypertension",
+      "chronic obstructive pulmonary disease (copd)",
+      "dyspnea",
+      "chest pain",
+      "echocardiogram",
+      "pulmonary function tests",
+      "diuretics",
+      "oxygen therapy",
+      "pulmonary rehabilitation"
+    ]
+  },
+  {
+    "medical_specialty": "Cardiovascular / Pulmonary",
+    "description": "Patient with a history of coronary artery disease and chronic obstructive pulmonary disease presents with dyspnea on exertion and chest pain. Echocardiogram reveals left ventricular dysfunction and pulmonary artery hypertension. Pulmonary function tests confirm severe COPD. Patient is started on oxygen therapy and diuretics.",
+    "transcription": "Patient is a 72-year-old male with a past medical history significant for coronary artery disease and chronic obstructive pulmonary disease (COPD) presenting with complaints of dyspnea on exertion and chest pain. The patient reports that his symptoms have been worsening over the past few weeks. The patient denies any other symptoms. The patient's medications include aspirin, atorvastatin, lisinopril, furosemide, and albuterol/ipratropium. Vital signs are significant for a blood pressure of 140/80 mm Hg, a heart rate of 90 beats per minute, and oxygen saturation of 92% on room air. Physical examination is significant for rales at the bases of both lungs. The patient's chest x-ray is significant for hyperinflation. Laboratory studies are significant for a hemoglobin A1C of 7.2%. Echocardiogram reveals a left ventricular ejection fraction of 25% with a left ventricular end-diastolic diameter of 6.5 centimeters and a left ventricular end-systolic diameter of 5.5 centimeters. The patient also has a right ventricular systolic pressure of 55 millimeters of mercury. Pulmonary artery systolic pressure is 65 millimeters of mercury. Pulmonary function tests confirm severe COPD with a forced expiratory volume in one second (FEV1) of 50% and a forced vital capacity (FVC) of 60%. The patient is started on oxygen therapy via nasal cannula at 2 liters per minute and furosemide 40 milligrams daily. The patient is to follow up in clinic in four weeks.",
+    "sample_name": "Cardiovascular / Pulmonary Case Study",
+    "keywords": [
+      "coronary artery disease",
+      "chronic obstructive pulmonary disease",
+      "dyspnea",
+      "chest pain",
+      "echocardiogram",
+      "left ventricular dysfunction",
+      "pulmonary artery hypertension",
+      "severe COPD",
+      "oxygen therapy",
+      "diuretics"
+    ]
+  },
+  {
+    "medical_specialty": "Cardiovascular / Pulmonary",
+    "description": "Patient presents with shortness of breath and chest pain. Diagnosis of chronic obstructive pulmonary disease (COPD) and coronary artery disease (CAD) is made. Treatment includes bronchodilators and statins.",
+    "transcription": "Patient presents to the clinic today with complaints of shortness of breath and chest pain. The patient reports that these symptoms have been present for several weeks and have been gradually worsening. The patient denies any other symptoms. The patient's medical history is significant for a history of smoking, with a 40 pack year history. The patient quit smoking 5 years ago. The patient's family history is significant for coronary artery disease (CAD) in his father. The patient's social history is significant for alcohol use, with the patient reporting that he drinks approximately 14 drinks per week. The patient's review of systems is otherwise negative. On physical examination, the patient's vital signs are significant for a blood pressure of 140/80 mm Hg and a heart rate of 90 beats per minute. The patient's cardiovascular exam is significant for a regular rate and rhythm. The patient's lungs are clear to auscultation and percussion. The patient's abdomen is benign. The patient's extremities are without edema. The patient's neurologic exam is benign. Based on the patient's history and physical examination, further diagnostic testing is recommended. Pulmonary function testing is recommended to evaluate for chronic obstructive pulmonary disease (COPD). Cardiac catheterization is recommended to evaluate for CAD. Based on the results of these tests, an appropriate treatment plan will be developed.",
+    "sample_name": "Cardiovascular / Pulmonary Consultation",
+    "keywords": [
+      "shortness of breath",
+      "chest pain",
+      "COPD",
+      "CAD",
+      "smoking",
+      "family history",
+      "alcohol use",
+      "pulmonary function testing",
+      "cardiac catheterization"
+    ]
+  },
+  {
+    "medical_specialty": "Cardiovascular / Pulmonary",
+    "description": "Patient with a history of hypertension and chronic obstructive pulmonary disease (COPD) presents with dyspnea and orthopnea. Chest X-ray reveals cardiomegaly and pulmonary edema. Echocardiogram shows left ventricular hypertrophy and diastolic dysfunction. Patient is diagnosed with heart failure with preserved ejection fraction.",
+    "transcription": "Patient is a 72-year-old male with a past medical history significant for hypertension and chronic obstructive pulmonary disease (COPD) presenting with dyspnea and orthopnea. On physical exam, the patient is in no acute distress. His jugular venous pressure is elevated at 12 cm of H2O. His lungs are clear to auscultation and percussion, but he demonstrates bilateral lower extremity pitting edema. His cardiac exam is significant for a regular rate and rhythm without murmurs, rubs, or gallops. His abdomen is benign. His extremities show 2+ pitting edema. His neurologic exam is unremarkable. His laboratory studies are significant for a BNP of 160 pg/mL. His chest X-ray reveals cardiomegaly and pulmonary edema. His ECG shows sinus rhythm with a left ventricular hypertrophy pattern. His echocardiogram shows a left ventricular ejection fraction of 60%, left ventricular hypertrophy, and diastolic dysfunction. The patient is diagnosed with heart failure with preserved ejection fraction.",
+    "sample_name": "Heart Failure with Preserved Ejection Fraction",
+    "keywords": [
+      "hypertension",
+      "COPD",
+      "dyspnea",
+      "orthopnea",
+      "cardiomegaly",
+      "pulmonary edema",
+      "left ventricular hypertrophy",
+      "diastolic dysfunction",
+      "heart failure",
+      "preserved ejection fraction"
+    ]
+  },
+  {
+    "medical_specialty": "Cardiovascular / Pulmonary",
+    "description": "Patient presented with symptoms of shortness of breath and chest pain. Diagnosis of chronic obstructive pulmonary disease (COPD) and coronary artery disease (CAD) was made. Treatment with bronchodilators and statins was initiated.",
+    "transcription": "Patient presents with complaints of shortness of breath and chest pain. The patient is a 65-year-old male, a smoker with a 40 pack-year history. Vital signs are within normal limits. The patient has a history of hypertension, hyperlipidemia, and chronic obstructive pulmonary disease (COPD) diagnosed 5 years ago. The patient reports worsening dyspnea on exertion and increased frequency of chest pain over the past 2 months. Physical examination reveals bilateral crackles in the lung fields. Laboratory studies include a white blood cell count of 9.2 x 10^9/L, hemoglobin of 14.2 g/dL, and a creatinine of 1.2 mg/dL. Arterial blood gas shows a pH of 7.38, partial pressure of carbon dioxide (PCO2) of 42 mm Hg, and partial pressure of oxygen (PO2) of 58 mm Hg on room air. Chest x-ray reveals hyperinflation and bilateral upper lobe infiltrates. Pulmonary function tests reveal a forced expiratory volume in 1 second (FEV1) of 50% and a forced vital capacity (FVC) of 60%. Echocardiogram reveals a left ventricular ejection fraction (LVEF) of 50%. Electrocardiogram (ECG) shows ST segment depression in leads II, III, and aVF. Cardiac catheterization reveals 90% stenosis of the left anterior descending artery and 70% stenosis of the left circumflex artery. Coronary angiography confirms the presence of coronary artery disease (CAD). Diagnosis of chronic obstructive pulmonary disease (COPD) and coronary artery disease (CAD) is made. Treatment with bronchodilators and statins is initiated.",
+    "sample_name": "Cardiovascular / Pulmonary Record",
+    "keywords": [
+      "COPD",
+      "CAD",
+      "shortness of breath",
+      "chest pain",
+      "smoker",
+      "pack-year history",
+      "hypertension",
+      "hyperlipidemia",
+      "bilateral crackles",
+      "lung fields",
+      "white blood cell count",
+      "hemoglobin",
+      "creatinine",
+      "arterial blood gas",
+      "pH",
+      "partial pressure of carbon dioxide",
+      "partial pressure of oxygen",
+      "chest x-ray",
+      "hyperinflation",
+      "bilateral upper lobe infiltrates",
+      "pulmonary function tests",
+      "forced expiratory volume in 1 second",
+      "forced vital capacity",
+      "echocardiogram",
+      "left ventricular ejection fraction",
+      "electrocardiogram",
+      "ST segment depression",
+      "left anterior descending artery",
+      "left circumflex artery",
+      "coronary artery disease"
+    ]
+  },
+  {
+    "medical_specialty": "Cardiovascular / Pulmonary",
+    "description": "Patient with a history of coronary artery disease and chronic obstructive pulmonary disease presents with dyspnea and chest pain. Echocardiogram reveals left ventricular dysfunction and pulmonary hypertension. Pulmonary function tests confirm severe COPD. Patient is started on oxygen therapy and diuretics.",
+    "transcription": "Patient is a 72-year-old male with a past medical history significant for coronary artery disease and chronic obstructive pulmonary disease (COPD) presents to the emergency department with complaints of dyspnea and chest pain. The patient reports that his symptoms began suddenly and are ongoing at the time of presentation. The patient denies any other associated symptoms. The patient's medications include aspirin, atorvastatin, lisinopril, furosemide, and albuterol/ipratropium. Vital signs are significant for a blood pressure of 140/80 mm Hg, a heart rate of 90 beats per minute, and a respiratory rate of 20 breaths per minute. The patient is in no acute distress. Physical examination is significant for rales at the lung bases. The patient's chest x-ray reveals bilateral lower lobe infiltrates. Echocardiogram reveals a left ventricular ejection fraction of 30% and a right ventricular systolic pressure of 55 mm Hg. Pulmonary function tests confirm severe COPD with a forced expiratory volume in one second (FEV1) of 40% and a forced vital capacity (FVC) of 60%. The patient is started on oxygen therapy via nasal cannula at 2 liters per minute and furosemide 40 mg intravenously. The patient is admitted to the hospital for further management.",
+    "sample_name": "Cardiovascular / Pulmonary Case Study",
+    "keywords": [
+      "coronary artery disease",
+      "chronic obstructive pulmonary disease",
+      "dyspnea",
+      "chest pain",
+      "left ventricular dysfunction",
+      "pulmonary hypertension",
+      "severe COPD",
+      "oxygen therapy",
+      "diuretics"
+    ]
+  },
+  {
+    "medical_specialty": "Cardiovascular / Pulmonary",
+    "description": "Patient with a history of coronary artery disease and chronic obstructive pulmonary disease presents with shortness of breath and chest pain. Echocardiogram reveals left ventricular dysfunction and pulmonary hypertension. Pulmonary function tests confirm severe restrictive lung disease. Patient is started on oxygen therapy and diuretics.",
+    "transcription": "Patient is a 72-year-old male with a past medical history significant for coronary artery disease and chronic obstructive pulmonary disease (COPD) presenting with complaints of shortness of breath and chest pain. The patient reports that his symptoms have been worsening over the past few weeks, and he has been using his home oxygen therapy more frequently. The patient denies any other symptoms, including fevers, chills, or cough. The patient's medications include aspirin, atorvastatin, lisinopril, furosemide, and albuterol/ipratropium inhaler. The patient reports taking his medications as prescribed. The patient's vital signs are within normal limits. The patient's physical examination is significant for bibasilar crackles and lower extremity edema. The patient's laboratory results are within normal limits. An electrocardiogram (ECG) is performed and is significant for sinus rhythm with a rate of 85 beats per minute and a left ventricular ejection fraction (LVEF) of 30%. A chest X-ray is performed and is significant for cardiomegaly and bilateral lower lobe infiltrates. An echocardiogram is performed and reveals a left ventricular ejection fraction (LVEF) of 30%, moderate mitral regurgitation, and a right ventricular systolic pressure (RVSP) of 55 mm Hg. Pulmonary hypertension is suspected based on the echocardiogram findings. Pulmonary function tests are performed and reveal a forced expiratory volume in one second (FEV1) of 1.0 liters (L) (38% predicted) and a forced vital capacity (FVC) of 2.0 L (54% predicted). Severe restrictive lung disease is confirmed based on the pulmonary function test results. The patient is diagnosed with left ventricular dysfunction, pulmonary hypertension, and severe restrictive lung disease. The patient is started on oxygen therapy and diuretics for his symptoms.",
+    "sample_name": "Left Ventricular Dysfunction, Pulmonary Hypertension, and Severe Restrictive Lung Disease",
+    "keywords": [
+      "left ventricular dysfunction",
+      "pulmonary hypertension",
+      "severe restrictive lung disease",
+      "coronary artery disease",
+      "chronic obstructive pulmonary disease",
+      "shortness of breath",
+      "chest pain",
+      "bibasilar crackles",
+      "lower extremity edema",
+      "oxygen therapy",
+      "diuretics"
+    ]
+  },
+  {
+    "medical_specialty": "Cardiovascular / Pulmonary",
+    "description": "Patient presents with shortness of breath and chest pain. Echocardiogram reveals left ventricular dysfunction and pulmonary hypertension. Diagnosis: Heart failure with pulmonary hypertension.",
+    "transcription": "Patient presents with complaints of shortness of breath and chest pain. On examination, the patient is in mild distress, with a respiratory rate of 22 and oxygen saturation of 94% on room air. The patient is afebrile. Cardiac exam reveals a regular rate and rhythm, with a normal S1 and S2. The jugular venous pressure is elevated at 12 cm H2O. The patient has 3+ pitting edema to the ankles. The patient's chest x-ray reveals cardiomegaly and pulmonary vascular redistribution. Echocardiogram reveals a left ventricular ejection fraction of 25%, with global hypokinesis. The right ventricle is enlarged, with a systolic pressure of 60 mmHg. The left atrium is dilated. The patient has a moderate pericardial effusion. The patient's BNP is elevated at 1200 pg/mL. Diagnosis: Heart failure with pulmonary hypertension.",
+    "sample_name": "Heart Failure with Pulmonary Hypertension",
+    "keywords": [
+      "heart failure",
+      "pulmonary hypertension",
+      "left ventricular dysfunction",
+      "echocardiogram",
+      "cardiomegaly",
+      "pericardial effusion",
+      "BNP"
+    ]
+  },
+  {
+    "medical_specialty": "Cardiovascular / Pulmonary",
+    "description": "Patient with a history of hypertension, hyperlipidemia, and coronary artery disease presents with dyspnea and chest pain. Echocardiogram reveals a left ventricular ejection fraction of 35% and pulmonary artery systolic pressure of 50 mmHg. Diagnosis of heart failure with preserved ejection fraction and pulmonary arterial hypertension is made. Treatment with diuretics, beta-blockers, and pulmonary arterial hypertension medications is initiated.",
+    "transcription": "Patient is a 72-year-old male with a past medical history significant for hypertension, hyperlipidemia, and coronary artery disease presenting with complaints of dyspnea and chest pain. Vital signs are within normal limits. Physical examination is unremarkable. Echocardiogram reveals a left ventricular ejection fraction of 35% and pulmonary artery systolic pressure of 50 mmHg. Diagnosis of heart failure with preserved ejection fraction and pulmonary arterial hypertension is made. Treatment with diuretics, beta-blockers, and pulmonary arterial hypertension medications is initiated.",
+    "sample_name": "Cardiovascular / Pulmonary Case Study",
+    "keywords": [
+      "heart failure",
+      "pulmonary arterial hypertension",
+      "coronary artery disease",
+      "hypertension",
+      "hyperlipidemia",
+      "echocardiogram",
+      "left ventricular ejection fraction",
+      "pulmonary artery systolic pressure"
+    ]
+  }
+]
