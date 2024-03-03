@@ -3,7 +3,8 @@ from setuptools import setup
 setup(
     name="llm-transcript-generator",
     packages=["llm-transcript-generator"],
-    version="1.0.0",
+    package_dir={'llm-transcript-generator': 'src'},
+    version="0.1.0",
     author="Tung Tran",
     description="A LLM-based medical transcript generator",
     long_description=open("README.md", "r", encoding="utf-8").read(),
