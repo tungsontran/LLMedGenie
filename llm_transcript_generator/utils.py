@@ -1,4 +1,5 @@
 import os
+from pathlib import Path
 
 def load_tokens(file_path):
     tokens = {}
@@ -28,6 +29,9 @@ def print_trainable_parameters(model):
         f"trainable params: {trainable_params} || all params: {all_param} || trainable%: {100 * trainable_params / all_param}"
     )
 
+def get_project_root() -> Path:
+    return Path(__file__).parent.parent
+    
 # huggingface_token_read = os.environ.get("HUGGINGFACE_TOKEN_READ")
 # huggingface_token_write = os.environ.get("HUGGINGFACE_TOKEN_WRITE")
 # aws_access_key = os.environ.get("AWS_ACCESS_KEY")

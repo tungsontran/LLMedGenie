@@ -22,8 +22,8 @@ device_map = {"": device_index}
 from sklearn.model_selection import train_test_split
 from torch.utils.data import DataLoader
 from datasets import Dataset
-from utils import *
-from prompt_template import prompt_template_training
+from llm_transcript_generator.utils import *
+from llm_transcript_generator.prompt_template import prompt_template_training
 
 import pandas as pd
 import math
@@ -36,11 +36,15 @@ import os
 
 os.environ["TOKENIZERS_PARALLELISM"] = "true"
 
-PROJECT_DIR_PATH = ''
-OUTPUT_PATH = os.path.join(PROJECT_DIR_PATH, 'checkpoints/zephyr-7B-beta_medical_transcription_2')
-OUTPUT_MODEL = os.path.join(PROJECT_DIR_PATH, 'models/zephyr-7B-beta_medical_transcription_2')
-PROJECT_NAME = 'zephyr-7b-beta_medical_transcription'
+ROOT_DIR = get_project_root()
+MODEL_DIR = os.path.join(ROOT_DIR,'models')
+CHECKPOINT_DIR = os.path.join(ROOT_DIR,'checkpoints')
 MODEL_NAME = "TheBloke/zephyr-7B-beta-GPTQ"
+
+ADAPTER_PATH = os.path.join(MODEL_DIR,'zephyr-7B-beta_medical_transcription_2')
+OUTPUT_PATH = os.path.join(CHECKPOINT_DIR, 'zephyr-7B-beta_medical_transcription_2')
+OUTPUT_MODEL = os.path.join(MODEL_DIR, 'zephyr-7B-beta_medical_transcription_2')
+PROJECT_NAME = 'zephyr-7b-beta_medical_transcription'
 
 wandb.login()
 wandb.init(project=PROJECT_NAME)

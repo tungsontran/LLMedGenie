@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: llm-transcript-generator
-Version: 1.0.0
+Version: 0.1.0
 Summary: A LLM-based medical transcript generator
 Home-page: https://github.com/tungsontran/llm-transcript-generator/
 Author: Tung Tran

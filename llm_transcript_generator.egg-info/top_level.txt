@@ -1,1 +1,1 @@
-llm-transcript-generator
+llm_transcript_generator
