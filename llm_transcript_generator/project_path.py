@@ -6,4 +6,5 @@ ADAPTER_DIR = os.path.join(ROOT_DIR,'adapters')
 OUTPUT_DIR = os.path.join(ROOT_DIR,'output')
 CONFIG_DIR = os.path.join(ROOT_DIR,'config')
 CHECKPOINT_DIR = os.path.join(ROOT_DIR,'checkpoints')
+DATASET_DIR = os.path.join(ROOT_DIR,'dataset')
 

@@ -9,7 +9,7 @@ from langchain.output_parsers import ResponseSchema, StructuredOutputParser
 from sklearn.model_selection import train_test_split
 from torch.utils.data import DataLoader
 from datasets import Dataset
-from llm_transcript_generator.utils import *
+from llm_transcript_generator.utils import get_model_name
 from llm_transcript_generator.prompt_template import prompt_template_inferrence
 from llm_transcript_generator.project_path import ADAPTER_DIR, OUTPUT_DIR, CONFIG_DIR, CHECKPOINT_DIR, ROOT_DIR
 from fastapi import FastAPI, HTTPException, Body
@@ -34,8 +34,7 @@ def parse_arguments():
     parser = argparse.ArgumentParser(description='LLM Backend Service')
     parser.add_argument('--port', type=int, default=5000, help='Port for the application')
     parser.add_argument('--model-name', type=str, help='Huggingface model name', default='TheBloke/zephyr-7B-beta-GPTQ')
-    parser.add_argument('--use-peft', type=bool, help='Use PEFT', default=False)
-    parser.add_argument('--adapter-path', type=str, help='Path to adapter', default='zephyr-7B-beta')
+    parser.add_argument('--use-adapter', type=bool, help='Use PEFT adapter', default=False)
 
     return parser.parse_args()
 
@@ -45,8 +44,8 @@ def parse_arguments():
 def init_llm():
     global pipeline
     gptq_config=GPTQConfig(bits=4,use_exllama=True)
-    if args.use_peft:
-        ADAPTER_PATH = os.path.join(ADAPTER_DIR,args.adapter_path)
+    if args.use_adapter:
+        ADAPTER_PATH = os.path.join(ADAPTER_DIR,get_model_name(args.model_name))
         peft_config = PeftConfig.from_pretrained(ADAPTER_PATH)
         model = AutoModelForCausalLM.from_pretrained(
                                                 peft_config.base_model_name_or_path, 

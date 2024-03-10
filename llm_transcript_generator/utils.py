@@ -31,6 +31,10 @@ def print_trainable_parameters(model):
 
 def get_project_root() -> Path:
     return Path(__file__).parent.parent
+
+def get_model_name(name):
+    return name.split('/')[-1]
+
     
 # huggingface_token_read = os.environ.get("HUGGINGFACE_TOKEN_READ")
 # huggingface_token_write = os.environ.get("HUGGINGFACE_TOKEN_WRITE")

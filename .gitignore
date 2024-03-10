@@ -4,3 +4,4 @@ checkpoints/*
 __pycache__/*
 api_secret.txt
 dummy.py
+output/test.json
