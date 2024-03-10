@@ -47,6 +47,7 @@ def parse_arguments():
     parser.add_argument('--warmup-steps', type=int, help='Number of warmup steps', default=10)
     parser.add_argument('--steps', type=int, help='Number of training steps', default=1000)
     parser.add_argument('--grad-acc', type=int, help='Number of gradient accumulation steps', default=1)
+    parser.add_argument('--enable-wandb', type=str, help='Enable Weights and Biases', default='disabled')
 
     return parser.parse_args()
 
@@ -192,7 +193,7 @@ if __name__ == '__main__':
     PROJECT_NAME = f'{get_model_name(args.model_name)}-medical-transcription'
 
     wandb.login()
-    wandb.init(project=PROJECT_NAME,mode="disabled")  
+    wandb.init(project=PROJECT_NAME,mode=args.enable_wandb)  
 
     model, tokenizer, training_args = init_llm()
     train_dataset, val_dataset, data_collator = prepare_data()
