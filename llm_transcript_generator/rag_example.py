@@ -21,11 +21,12 @@ loader = WebBaseLoader(
 )
 docs = loader.load()
 
-text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000,chunk_overlap=200)
+text_splitter = RecursiveCharacterTextSplitter(
+    chunk_size=1000, chunk_overlap=200)
 splits = text_splitter.split_documents(docs)
 
 # Load tokens from file
-token_file_path = "api_secret.txt"  
+token_file_path = "api_secret.txt"
 tokens = load_tokens(token_file_path)
 set_environment_variables(tokens)
 
@@ -38,8 +39,6 @@ hf = HuggingFaceEmbeddings(
     encode_kwargs=encode_kwargs
 )
 
-vectorstore = Chroma.from_documents(documents=splits,embedding=hf)
+vectorstore = Chroma.from_documents(documents=splits, embedding=hf)
 
 retriever = vectorstore.as_retriever()
-
-
