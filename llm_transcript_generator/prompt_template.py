@@ -20,7 +20,7 @@ def prompt_template_training(data: dict, template: str = "zephyr") -> list:
     return output
 
 
-def prompt_template_inferrence(input: str, template: str = "zephyr") -> str:
+def prompt_template_inference(input: str, template: str = "zephyr") -> str:
     prompt_template = None
     output = None
     if template == "llama2":

@@ -10,9 +10,10 @@ from sklearn.model_selection import train_test_split
 from torch.utils.data import DataLoader
 from datasets import Dataset
 from llm_transcript_generator.utils import get_model_name
-from llm_transcript_generator.prompt_template import prompt_template_inferrence
+from llm_transcript_generator.prompt_template import prompt_template_inference
 from llm_transcript_generator.project_path import ADAPTER_DIR, OUTPUT_DIR, CONFIG_DIR, CHECKPOINT_DIR, ROOT_DIR
-from fastapi import FastAPI, HTTPException, Body
+from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
 import uvicorn
@@ -27,7 +28,13 @@ from datetime import datetime
 import argparse
 
 app = FastAPI()
-
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["GET", "POST"],
+    allow_headers=["*"],
+)
 ##########################################################################################
 # Parse Arguments
 ##########################################################################################
@@ -91,8 +98,8 @@ def init_llm():
 ##########################################################################################
 
 
-def perform_inference(pipeline, prompt, max_tokens=100, temperature=0.7, top_k=50, top_p=0.95, num_seq=1, output_file=None):
-    prompt = prompt_template_inferrence(prompt)
+def perform_inference(pipeline, prompt, max_tokens, temperature, top_k, top_p, num_seq, output_file):
+    prompt = prompt_template_inference(prompt)
 
     sequences = pipeline(
         prompt,
@@ -115,32 +122,41 @@ def perform_inference(pipeline, prompt, max_tokens=100, temperature=0.7, top_k=5
 ##########################################################################################
 
 
-class InferrenceRequest(BaseModel):
-    name: str
-    description: str | None = None
-    price: float
-    tax: float | None = None
+class InferenceRequest(BaseModel):
+    prompt: str
+    max_tokens: float = 100
+    temperature: float = 0.7
+    top_k: float = 50
+    top_p: float = 0.95
+    num_seq: int = 1
+    output_file: str = None
 
 
-@app.post("/inferrence")
-async def process_inferrence_request(payload: InferrenceRequest):
+@app.get("/inference")
+async def process_inference_request(payload: InferenceRequest):
     if pipeline is None:
         init_llm()
 
     try:
+        start = time.perf_counter()
+
         sequences = perform_inference(
             pipeline=pipeline,
-            prompt=payload.get('prompt'),
-            max_tokens=payload.get('max_tokens'),
-            temperature=payload.get('temperature'),
-            top_k=payload.get('top_k'),
-            top_p=payload.get('top_p'),
-            num_seq=payload.get('num_seq'),
-            output_file=payload.get('output_file')
+            prompt=payload.prompt,
+            max_tokens=payload.max_tokens,
+            temperature=payload.temperature,
+            top_k=payload.top_k,
+            top_p=payload.top_p,
+            num_seq=payload.num_seq,
+            output_file=payload.output_file
         )
-        return {'sequences': sequences}
+
+        end = time.perf_counter()
+        return {'Inference time': round(end_time - start_time, 2)}
     except Exception as e:
         raise HTTPException(status_code=400, detail=str(e))
+
+##########################################################################################
 
 if __name__ == '__main__':
     args = parse_arguments()
