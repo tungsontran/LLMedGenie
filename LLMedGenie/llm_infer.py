@@ -8,10 +8,10 @@ from transformers import (
 from sklearn.model_selection import train_test_split
 from torch.utils.data import DataLoader
 from datasets import Dataset
-from llm_transcript_generator.utils import get_model_name
-from llm_transcript_generator.prompt_template import prompt_template_inference
-from llm_transcript_generator.project_path import ADAPTER_DIR, OUTPUT_DIR, CONFIG_DIR, CHECKPOINT_DIR, ROOT_DIR
-from llm_transcript_generator.request_template import InferenceRequest
+from LLMedGenie.utils import get_model_name
+from LLMedGenie.prompt_template import prompt_template_inference
+from LLMedGenie.project_path import ADAPTER_DIR, OUTPUT_DIR, CONFIG_DIR, CHECKPOINT_DIR, ROOT_DIR
+from LLMedGenie.request_template import InferenceRequest
 from fastapi import FastAPI, HTTPException, WebSocket
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse

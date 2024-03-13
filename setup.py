@@ -1,10 +1,10 @@
 from setuptools import setup
 
 setup(
-    name="llm-transcript-generator",
-    packages=["llm_transcript_generator"],
-    package_dir={'llm_transcript_generator': 'llm_transcript_generator'},
-    version="0.2.0",
+    name="LLMedGenie",
+    packages=["LLMedGenie"],
+    package_dir={'LLMedGenie': 'LLMedGenie'},
+    version="0.3.0",
     author="Tung Tran",
     description="A LLM-based medical transcript generator",
     long_description=open("README.md", "r", encoding="utf-8").read(),

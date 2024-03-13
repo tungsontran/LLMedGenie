@@ -7,9 +7,9 @@ import json
 import logging
 import math
 import pandas as pd
-from llm_transcript_generator.utils import get_model_name
-from llm_transcript_generator.prompt_template import prompt_template_training
-from llm_transcript_generator.project_path import ADAPTER_DIR, OUTPUT_DIR, CONFIG_DIR, CHECKPOINT_DIR, ROOT_DIR, DATASET_DIR
+from LLMedGenie.utils import get_model_name
+from LLMedGenie.prompt_template import prompt_template_training
+from LLMedGenie.project_path import ADAPTER_DIR, OUTPUT_DIR, CONFIG_DIR, CHECKPOINT_DIR, ROOT_DIR, DATASET_DIR
 from datasets import Dataset
 from torch.utils.data import DataLoader
 from sklearn.model_selection import train_test_split
