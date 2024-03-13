@@ -5,18 +5,22 @@ from transformers import (
     pipeline
 )
 
-from langchain.output_parsers import ResponseSchema, StructuredOutputParser
 from sklearn.model_selection import train_test_split
 from torch.utils.data import DataLoader
 from datasets import Dataset
 from llm_transcript_generator.utils import get_model_name
 from llm_transcript_generator.prompt_template import prompt_template_inference
 from llm_transcript_generator.project_path import ADAPTER_DIR, OUTPUT_DIR, CONFIG_DIR, CHECKPOINT_DIR, ROOT_DIR
-from fastapi import FastAPI, HTTPException
+from llm_transcript_generator.request_template import InferenceRequest
+from fastapi import FastAPI, HTTPException, WebSocket
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
+from typing import List
 
 import uvicorn
+import asyncio
+import langchain
 import tqdm
 import pandas as pd
 import json
@@ -24,6 +28,7 @@ import torch
 import wandb
 import os
 import time
+import queue
 from datetime import datetime
 import argparse
 
@@ -98,7 +103,7 @@ def init_llm():
 ##########################################################################################
 
 
-def perform_inference(pipeline, prompt, max_tokens, temperature, top_k, top_p, num_seq, output_file):
+async def inference(pipeline, prompt, max_tokens, temperature, top_k, top_p, num_seq) -> List[dict]:
     prompt = prompt_template_inference(prompt)
 
     sequences = pipeline(
@@ -111,50 +116,41 @@ def perform_inference(pipeline, prompt, max_tokens, temperature, top_k, top_p, n
         num_return_sequences=num_seq
     )
 
-    if output_file:
-        with open(f"{OUTPUT_DIR}/{output_file}", "w") as file:
-            json.dump(sequences, file, ensure_ascii=False, indent=2)
-
     return sequences
+
 
 ##########################################################################################
 # Inferrence request
 ##########################################################################################
 
 
-class InferenceRequest(BaseModel):
-    prompt: str
-    max_tokens: float = 100
-    temperature: float = 0.7
-    top_k: float = 50
-    top_p: float = 0.95
-    num_seq: int = 1
-    output_file: str = None
-
-
-@app.get("/inference")
-async def process_inference_request(payload: InferenceRequest):
+@app.post("/inference/batch")
+async def batch_inference(payload: InferenceRequest):
     if pipeline is None:
         init_llm()
 
     try:
         start = time.perf_counter()
 
-        sequences = perform_inference(
+        sequences = await inference(
             pipeline=pipeline,
             prompt=payload.prompt,
             max_tokens=payload.max_tokens,
             temperature=payload.temperature,
             top_k=payload.top_k,
             top_p=payload.top_p,
-            num_seq=payload.num_seq,
-            output_file=payload.output_file
+            num_seq=payload.num_seq
         )
 
         end = time.perf_counter()
-        return {'Inference time': round(end_time - start_time, 2)}
+        if payload.output_file:
+            with open(f"{OUTPUT_DIR}/{payload.output_file}", "w") as file:
+                json.dump(sequences, file, ensure_ascii=False, indent=2)
+
+        return {'Sequences': sequences, 'Inference time': round(end - start, 2)}
     except Exception as e:
         raise HTTPException(status_code=400, detail=str(e))
+
 
 ##########################################################################################
 

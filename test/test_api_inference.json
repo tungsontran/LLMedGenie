@@ -1,1 +1,1 @@
-{"prompt": "Surgery", "num_seq": 1, "max_tokens": 150, "output_file": "test.json"}
+{"prompt": "Surgery", "num_seq": 2, "max_tokens": 150, "output_file": "test.json"}
