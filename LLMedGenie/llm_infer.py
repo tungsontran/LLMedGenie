@@ -5,6 +5,8 @@ from transformers import (
     pipeline
 )
 
+from peft import PeftConfig
+
 from LLMedGenie.utils import get_model_name
 from LLMedGenie.prompt_template import prompt_template_inference
 from LLMedGenie.project_path import ADAPTER_DIR, OUTPUT_DIR, CONFIG_DIR, CHECKPOINT_DIR, ROOT_DIR

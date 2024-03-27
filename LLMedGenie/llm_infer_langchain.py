@@ -4,6 +4,7 @@ from transformers import (
     GPTQConfig,
     pipeline
 )
+from peft import PeftConfig
 
 from LLMedGenie.utils import get_model_name
 from LLMedGenie.prompt_template import prompt_template_inference
