@@ -1,8 +1,8 @@
-from typing import List, Dict, Any
 import transformers
 import os
 import requests
 import json
+import argparse
 
 import numpy as np
 import pandas as pd
@@ -12,6 +12,15 @@ from sentence_transformers import SentenceTransformer
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import train_test_split, StratifiedKFold
 from sklearn.metrics import accuracy_score, recall_score, precision_score, f1_score, classification_report
+from typing import List, Dict, Any
+
+
+def parse_arguments():
+    parser = argparse.ArgumentParser(description='LLM Backend Service')
+    parser.add_argument('--dataset', type=str,
+                        help='Classify documents from the dataset')
+
+    return parser.parse_args()
 
 
 def encode_data(data: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
@@ -128,6 +137,7 @@ def knn_classification(input, data, k, metric='euclidean', target_class=None):
 
 
 if __name__ == '__main__':
+    args = parse_arguments()
     file_path = f'{DATASET_DIR}/mtsamples.csv'
     df = pd.read_csv(file_path, index_col=0)
     for _, row in df.iterrows():
@@ -144,12 +154,12 @@ if __name__ == '__main__':
         with open(f'{DATASET_DIR}/mtsamples_encoded.json') as json_file:
             mtsamples_encoded = json.load(json_file)
 
-    test_data = 'validated_vanilla_lowtemp.json'
+    test_data = args.dataset
     with open(f'{OUTPUT_DIR}/{test_data}') as json_file:
         test_data = json.load(json_file)
         test_data = encode_data(test_data)
 
-    target_class = ['Cardiovascular / Pulmonary']
+    target_class = df['medical_specialty'].unique().tolist()
     accuracy, recall, precision, f1, class_report = knn_classification(
         test_data, mtsamples_encoded, 5, 'cosine', target_class=target_class)
     print(f"Accuracy: {accuracy:.4f}")
