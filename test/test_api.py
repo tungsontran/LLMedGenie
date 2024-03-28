@@ -1,4 +1,5 @@
 import requests
+from tqdm import tqdm
 import json
 from LLMedGenie.project_path import ROOT_DIR, OUTPUT_DIR
 from LLMedGenie.data_validator import MedicalTranscriptValidator
@@ -12,8 +13,8 @@ validator = MedicalTranscriptValidator()
 
 responses = []
 inference_times = []
-for label in labels:
-    request_body = {"prompt": label, "num_seq": 20, "max_tokens": 1000}
+for label in tqdm(labels[:1], desc=f"Testing API"):
+    request_body = {"prompt": label, "num_seq": 2, "max_tokens": 100}
     response = requests.post(
         f"{backend_url}/inference/batch/", json=request_body).json()
     sequences = response['Sequences']

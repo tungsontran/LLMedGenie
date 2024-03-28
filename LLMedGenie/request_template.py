@@ -8,4 +8,3 @@ class InferenceRequest(BaseModel):
     top_k: float = 50
     top_p: float = 0.95
     num_seq: int = 1
-    output_file: str = None

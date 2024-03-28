@@ -1,7 +1,7 @@
 {
-  "Valid JSON": 414,
-  "Invalid JSON": 386,
-  "Valid Fields": 267,
-  "Invalid Fields": 147,
-  "Average inference time": 22.183975000000004
+  "Valid JSON": 0,
+  "Invalid JSON": 0,
+  "Valid Fields": 0,
+  "Invalid Fields": 0,
+  "Average inference time": 21.36
 }
